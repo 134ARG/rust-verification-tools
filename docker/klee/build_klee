@@ -14,7 +14,7 @@ readonly UCLIBC_DIR=`pwd`
 make -j 4
 cd ..
 
-git clone --no-checkout https://github.com/klee/klee.git
+git clone --no-checkout https://github.com/134ARG/klee.git
 cd klee
 git checkout ${KLEE_VERSION}
 
