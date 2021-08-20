@@ -32,7 +32,7 @@ else
   # Last version based on LLVM-10
   RUSTC_VERSION=nightly-2020-08-03
   LLVM_VERSION=10
-  KLEE_VERSION="b48222a5218589133b5895a7a4a96a592468f57d"
+  KLEE_VERSION="fae868e254175324ee7de706d5e730faf51db431"
 fi
 
 sudo_if_needed docker build \
